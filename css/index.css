@@ -27,3 +27,61 @@
   /* -webkit-box-align: center; */
   align-items: center;
 }
+/* SIDEBAR */
+.items-sidebar{
+  border-bottom: 1px solid #f1f3f5;
+  padding: 5%;
+  font-size: small;
+}
+.icon-sidebar{
+  width: 24px;
+  height: 24px;
+  
+}
+.label-sidebar{
+  font-weight: bold;
+  color: #343a40;
+  padding-bottom: 1em;
+}
+.price-container{
+  padding: 3px;
+}
+.price-tag{
+  border-radius: 16px 16px;
+  background-color: #dee2e6;
+  padding: 2px 10px;
+}
+.small-label-sidebar{
+  font-size: 0.8em;
+  color: #868e96;
+}
+.group{
+  display: flex;
+}
+.range{
+  width: 49%;
+  border-radius: 5px 5px;
+  border: solid 1px #868e96;
+}
+.choose-range-price-button{
+  width: 100%;
+  color:#228be6;
+  /* border-color: #228be6;  */
+  border: 1px #228be6 solid;
+  border-radius: 16px 16px;
+  margin: 0.5em 0;
+}
+.rate{
+  display: flex;
+}
+.star-rate, .star-rate-gray{
+  color: #ffd43b;
+  width: 16px;
+  height: 16px;
+}
+.star-rate-gray{
+  color: #868e96;
+}
+.label-stars{
+  padding-left: 10px;
+}
