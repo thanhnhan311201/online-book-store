@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+#main-header {
+  background-color: rgb(26, 148, 255);
+  min-height: 100px;
+}
+
+.hfMLFx {
+  width: 1270px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.edlkEo {
+  display: flex;
+  padding: 16px 0px 10px;
+  height: auto;
+  /* position: relative; */
+  /* z-index: 2; */
+  /* -webkit-box-align: center; */
+  align-items: center;
+}
