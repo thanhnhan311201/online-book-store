@@ -1,7 +1,13 @@
+:root{
+  --body-bg-color: hsl(240deg 33% 97%);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{
+  background-color: var(--body-bg-color)!important;
 }
 
 /* HEADER */
@@ -32,6 +38,7 @@
   border-bottom: 1px solid #f1f3f5;
   padding: 5%;
   font-size: small;
+  background-color: #fff;
 }
 .icon-sidebar{
   width: 24px;
@@ -89,4 +96,18 @@
   text-align: left!important;
   color: #1c7ed6!important;
   font-size: small!important;
+}
+/* MAIN CONTENT */
+/* Search Summary */
+.ml-1{
+  margin-left: 16px !important;
+}
+#search-summary{
+  display: flex;
+  justify-content: space-around;
+
+}
+.top-page-navigation{
+  display: flex;
+  justify-content: space-between;
 }
